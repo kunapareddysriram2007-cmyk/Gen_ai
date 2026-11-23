@@ -16,7 +16,7 @@ client = genai.Client(api_key=api_key)
 
 # Step 4: Send prompt to Gemini
 response = client.models.generate_content(
-    model="gemini-2.0-flash",
+    model="gemini-3.8-flash",
     contents="My name is Sriram. Please greet me warmly."
 )
 
